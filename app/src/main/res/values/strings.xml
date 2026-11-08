@@ -1,0 +1,12 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GlassApp Widget</string>
+    <string name="widget_description">Glass launcher for your favorite apps</string>
+    <string name="widget_title">GLASS APP</string>
+    <string name="widget_subtitle">YOUR APPS, ONE TOUCH</string>
+    <string name="chatgpt">ChatGPT</string>
+    <string name="gemini">Gemini</string>
+    <string name="mt_manager">MT Manager</string>
+    <string name="apktool_m">Apktool M</string>
+</resources>
