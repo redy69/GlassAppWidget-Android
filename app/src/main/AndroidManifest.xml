@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <queries>
+        <package android:name="com.openai.chatgpt"/>
+        <package android:name="com.google.android.apps.bard"/>
+        <package android:name="bin.mt.plus"/>
+        <package android:name="ru.maximoff.apktool"/>
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:label="GlassApp Widget"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+
+        <receiver
+            android:name=".LauncherWidget"
+            android:exported="true"
+            android:label="GlassApp Widget">
+
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/glass_widget_info"/>
+
+        </receiver>
+
+    </application>
+</manifest>
